@@ -58,7 +58,7 @@ body * {
 
     .home {
         background-image: url("../img/home__img_bg.png");
-        text-align:center;
+        text-align: center;
         line-height: 18px;
         height: 1000px;
         
@@ -74,14 +74,14 @@ body * {
             color: #4b5863;            
         }
         
-        .btn{
+        .btn {
             display: inline-block;
             margin-top: 105px;
-            padding-top:20px;
-            color:#43a9ff;
-            width:229px;
-            height:51px;
-            border-radius:22px;
+            padding-top: 20px;
+            color: #43a9ff;
+            width: 229px;
+            height: 51px;
+            border-radius: 22px;
             box-shadow: 0 0 50px 0 #2c789c;
             opacity: .55;
             text-transform: uppercase;
@@ -103,7 +103,7 @@ body * {
     &-title {
         font-family: "Montserrat", sans-serif;
         font-size: 48px;
-        line-height: 18px;
+        line-height: 40px;
         color: #000000;
     }
     
@@ -112,8 +112,45 @@ body * {
         justify-content: space-around;
         
          &-item {
-            width: 345px;
+             width: 345px;
+             
+             img {
+                 font-family: "Montserrat", sans-serif;
+                 margin-top: 100px;
+                 margin-bottom: 38px;
+             }
+             
+             h2 {
+                 font-family: "Montserrat", sans-serif;
+                 margin-bottom: 43px;
+                 font-size: 18px;
+                 line-height: 18px;
+             }
+             
+             p {
+                 font-family: "Montserrat", sans-serif;
+                 font-size: 14px;
+                 line-height: 24px;
+                 color: #4b5863;
+                 text-align: none;
+             }
         }
+    }
+    
+     &-link {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: #43a9ff;
+         width: 229px;
+         height: 51px;
+         border-radius: 22px;
+         box-shadow: 0 0 50px 0 #2c789c;
+         opacity: .55;
+         text-transform: uppercase;
+         text-decoration: none;
+         margin-top: 80px;
+         margin-left: 880px;
     }
 }
 
