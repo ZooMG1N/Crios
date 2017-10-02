@@ -199,3 +199,40 @@ body * {
   padding-top: 46px;
   padding-left: 118px;
 }
+
+.wraper .media {
+  display: flex;
+  position: relative;
+}
+
+.wraper .media .snow {
+  position: absolute;
+  top: -95px;
+}
+
+.wraper .media .player {
+  position: relative;
+  z-index: 2;
+  padding-top: 165px;
+  padding-left: 360px;
+}
+
+.wraper .media .player-description {
+  width: 493px;
+  height: 180px;
+  margin-top: 392px;
+  margin-left: 173px;
+}
+
+.wraper .media .title {
+  font-size: 48px;
+  line-height: 40px;
+  color: #43a9ff;
+}
+
+.wraper .media .description {
+  font-size: 16px;
+  line-height: 36px;
+  color: #4b5863;
+  padding-top: 46px;
+}
