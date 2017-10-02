@@ -9,18 +9,19 @@ body * {
 }
 
 .wraper {
+  margin: 0 auto;
   width: 2000px;
   font-family: "Montserrat", sans-serif;
 }
 
-.header {
+.wraper .header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding-top: 57px;
 }
 
-.header-menu, .header .logo, .header-search {
+.wraper .header-menu, .wraper .header .logo, .wraper .header-search {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +32,7 @@ body * {
   opacity: .55;
 }
 
-.header .logo {
+.wraper .header .logo {
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -44,37 +45,37 @@ body * {
   text-transform: uppercase;
 }
 
-.header .logo-name {
+.wraper .header .logo-name {
   font-size: 48px;
   color: #43a9ff;
 }
 
-.header .logo-description {
+.wraper .header .logo-description {
   font-size: 18px;
   font-weight: 400;
   color: #4b5863;
 }
 
-.home {
+.wraper .home {
   background-image: url("../img/home__img_bg.png");
   text-align: center;
   line-height: 18px;
   height: 1000px;
 }
 
-.home .motto {
+.wraper .home .motto {
   margin: 175px 0 26px 0;
   font-size: 48px;
   line-height: 1;
 }
 
-.home .description {
+.wraper .home .description {
   font-size: 18px;
   font-weight: 400;
   color: #4b5863;
 }
 
-.home .btn {
+.wraper .home .btn {
   display: inline-block;
   margin-top: 105px;
   padding-top: 20px;
@@ -88,47 +89,47 @@ body * {
   text-decoration: none;
 }
 
-.features {
+.wraper .features {
   text-align: center;
 }
 
-.features-description {
+.wraper .features-description {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   line-height: 18px;
   color: #4b5863;
 }
 
-.features-title {
+.wraper .features-title {
   font-family: "Montserrat", sans-serif;
   font-size: 48px;
   line-height: 40px;
   color: #000000;
 }
 
-.features .achivements {
+.wraper .features .achivements {
   display: flex;
   justify-content: space-around;
 }
 
-.features .achivements-item {
+.wraper .features .achivements-item {
   width: 345px;
 }
 
-.features .achivements-item img {
+.wraper .features .achivements-item img {
   font-family: "Montserrat", sans-serif;
   margin-top: 100px;
   margin-bottom: 38px;
 }
 
-.features .achivements-item h2 {
+.wraper .features .achivements-item h2 {
   font-family: "Montserrat", sans-serif;
   margin-bottom: 43px;
   font-size: 18px;
   line-height: 18px;
 }
 
-.features .achivements-item p {
+.wraper .features .achivements-item p {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 24px;
@@ -136,7 +137,7 @@ body * {
   text-align: none;
 }
 
-.features-link {
+.wraper .features-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,4 +151,57 @@ body * {
   text-decoration: none;
   margin-top: 80px;
   margin-left: 880px;
+  margin-bottom: 125px;
+}
+
+.wraper .galery {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f7f8fb;
+}
+
+.wraper .galery .left .photo-description-lower {
+  height: 562px;
+  background-color: #f7f8fb;
+}
+
+.wraper .galery .left .photo-description-lower .title {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  line-height: 40px;
+  margin-bottom: 42px;
+}
+
+.wraper .galery .left .photo-description-lower .descriprtion {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 36px;
+  color: #4b5863;
+}
+
+.wraper .galery .right {
+  height: 562px;
+}
+
+.wraper .galery .right .photo-description-upper {
+  height: 562px;
+  background-color: #f7f8fb;
+}
+
+.wraper .galery .right .photo-description-upper .title {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  line-height: 40px;
+  margin-bottom: 42px;
+}
+
+.wraper .galery .right .photo-description-upper .descriprtion {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 36px;
+  color: #4b5863;
 }
