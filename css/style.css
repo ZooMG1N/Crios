@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body * {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wraper {
+  width: 2000px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 57px;
+}
+
+.header-menu, .header .logo, .header-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 0 50px 0 #2c789c;
+  opacity: .55;
+}
+
+.header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  width: 416px;
+  height: 416px;
+  border-radius: 50%;
+  margin-top: -264px;
+  padding-bottom: 90px;
+  text-transform: uppercase;
+}
+
+.header .logo-name {
+  font-size: 48px;
+  color: #43a9ff;
+}
+
+.header .logo-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #4b5863;
+}
+
+.home {
+  background-image: url("../img/home__img_bg.png");
+  text-align: center;
+  line-height: 18px;
+  height: 1000px;
+}
+
+.home .motto {
+  margin: 175px 0 26px 0;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.home .description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #4b5863;
+}
+
+.home .btn {
+  display: inline-block;
+  margin-top: 105px;
+  padding-top: 20px;
+  color: #43a9ff;
+  width: 229px;
+  height: 51px;
+  border-radius: 22px;
+  box-shadow: 0 0 50px 0 #2c789c;
+  opacity: .55;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.features {
+  text-align: center;
+}
+
+.features-description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  color: #4b5863;
+}
+
+.features-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.features .achivements {
+  display: flex;
+  justify-content: space-around;
+}
+
+.features .achivements-item {
+  width: 345px;
+}
