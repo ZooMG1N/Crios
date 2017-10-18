@@ -1,6 +1,10 @@
 body {
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
+=======
+  background-color: lime;
+>>>>>>> 59614a3f880a38e63b79a8c8f0b0c99714ece6d4
 }
 
 body * {
