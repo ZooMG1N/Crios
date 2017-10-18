@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: lime;
 }
 
 body * {
@@ -218,7 +217,7 @@ body * {
   padding-left: 360px;
 }
 
-.wraper .media .player-description {
+.wraper .media .player-description, .wraper .media .messenger__description {
   width: 493px;
   height: 180px;
   margin-top: 392px;
@@ -236,4 +235,10 @@ body * {
   line-height: 36px;
   color: #4b5863;
   padding-top: 46px;
+}
+
+.wraper .messenger {
+  display: flex;
+  position: relative;
+  background-color: white;
 }

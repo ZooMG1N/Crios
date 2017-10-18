@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:lime;
 }
 
 body * {
@@ -245,6 +244,17 @@ body * {
         }
     }
 
+    .messenger {
+        display: flex;
+        position: relative;
+        background-color:white;
+
+
+    
+    }
+    .messenger__description{
+        @extend .player-description;
+    }
 }
 
 
