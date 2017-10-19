@@ -175,7 +175,7 @@ body * {
 .wraper .galery .left .photo-description-lower .descriprtion {
   font-size: 16px;
   line-height: 36px;
-  color: #4b5863;
+  color: rgba(75, 88, 99, 0.349);
   padding-top: 46px;
   padding-left: 118px;
 }
@@ -195,7 +195,7 @@ body * {
 .wraper .galery .right .photo-description-upper .descriprtion {
   font-size: 16px;
   line-height: 36px;
-  color: #4b5863;
+  color: rgba(75, 88, 99, 0.349);
   padding-top: 46px;
   padding-left: 118px;
 }
